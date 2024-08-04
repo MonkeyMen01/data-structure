@@ -1,4 +1,4 @@
-package linklist;
+package linkedlist;
 
 public class Main {
 }
