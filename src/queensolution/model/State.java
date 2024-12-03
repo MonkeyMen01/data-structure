@@ -1,11 +1,10 @@
-package QueenSolution.model;
+package queensolution.model;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
-import static QueenSolution.model.QueenConstants.OPEN_NEXT_STATES_COUNT;
+import static queensolution.model.QueenConstants.OPEN_NEXT_STATES_COUNT;
 
 public class State {
     private int[] position;

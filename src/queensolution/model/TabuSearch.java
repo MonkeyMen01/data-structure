@@ -1,8 +1,8 @@
-package QueenSolution.model;
+package queensolution.model;
 
 import java.util.*;
 
-import static QueenSolution.model.QueenConstants.OPEN_LOG;
+import static queensolution.model.QueenConstants.OPEN_LOG;
 
 public class TabuSearch {
     private final int maxIterations;

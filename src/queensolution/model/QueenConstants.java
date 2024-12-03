@@ -1,4 +1,4 @@
-package QueenSolution.model;
+package queensolution.model;
 
 public class QueenConstants {
     public static final String QUEEN_POSITIONS = "queen.positions";

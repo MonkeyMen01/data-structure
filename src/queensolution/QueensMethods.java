@@ -1,9 +1,9 @@
-package QueenSolution;
+package queensolution;
 
-import QueenSolution.model.HillClimbingLog;
-import QueenSolution.model.SimulatedAnnealing;
-import QueenSolution.model.State;
-import QueenSolution.model.TabuSearch;
+import queensolution.model.HillClimbingLog;
+import queensolution.model.SimulatedAnnealing;
+import queensolution.model.State;
+import queensolution.model.TabuSearch;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -11,14 +11,14 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
 
-import static QueenSolution.model.QueenConstants.AUTO_RUN_times;
-import static QueenSolution.model.QueenConstants.MAX_ITERATIONS;
-import static QueenSolution.model.QueenConstants.MAX_STAGNATION;
-import static QueenSolution.model.QueenConstants.OPEN_AUTO_RUN;
-import static QueenSolution.model.QueenConstants.OPEN_AUTO_RUN_SIZE;
-import static QueenSolution.model.QueenConstants.QUEEN_COUNT;
-import static QueenSolution.model.QueenConstants.QUEEN_POSITIONS;
-import static QueenSolution.model.QueenConstants.TABU_SIZE;
+import static queensolution.model.QueenConstants.AUTO_RUN_times;
+import static queensolution.model.QueenConstants.MAX_ITERATIONS;
+import static queensolution.model.QueenConstants.MAX_STAGNATION;
+import static queensolution.model.QueenConstants.OPEN_AUTO_RUN;
+import static queensolution.model.QueenConstants.OPEN_AUTO_RUN_SIZE;
+import static queensolution.model.QueenConstants.QUEEN_COUNT;
+import static queensolution.model.QueenConstants.QUEEN_POSITIONS;
+import static queensolution.model.QueenConstants.TABU_SIZE;
 
 public class QueensMethods {
 

@@ -1,4 +1,4 @@
-package QueenSolution.model;
+package queensolution.model;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
-import static QueenSolution.model.QueenConstants.PRINT_CONFLICTS_MESSAGE;
+import static queensolution.model.QueenConstants.PRINT_CONFLICTS_MESSAGE;
 
 public class HillClimbingLog {
     private final int maxIteration;
