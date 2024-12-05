@@ -64,7 +64,7 @@ public class HillClimbingLog {
                     iteration = 0;
                     continue;
                 }
-
+// output 也是棋盤
                 visitedStates.add(currentState);
                 currentState = bestNextState;
 

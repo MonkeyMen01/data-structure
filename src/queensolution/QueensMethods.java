@@ -24,9 +24,7 @@ public class QueensMethods {
 
 
     public static void main(String[] args) {
-//        solution();
         solutionOfTabuSearch();
-//        solutionOfSimulatedAnnealing();
     }
 
     private static Map<String, Object> inputScanner() {

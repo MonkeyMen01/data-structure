@@ -92,7 +92,7 @@ public class State {
     public void printBoard() {
         for (int i = 0; i < position.length; i++) {
             for (int j = 0; j < position.length; j++) {
-                System.out.print(position[j] == i ? "Q " : ". ");
+                System.out.print(position[i] == j ? "Q " : ". ");
             }
             System.out.println();
         }

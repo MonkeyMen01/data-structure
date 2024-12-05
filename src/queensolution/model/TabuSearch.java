@@ -36,8 +36,7 @@ public class TabuSearch {
 
             if (bestCandidate == null) {
                 if(OPEN_LOG){
-                    System.out.println("陷入Local Optima 將隨機重啟");
-                    System.out.println("stagnationCount:" + stagnationCount);
+                    System.out.println("Next States都在Tabu而且當前沒有最佳解，陷入Local Optima 將隨機重啟");
                 }
                 currentState = diversify(currentState);
                 stagnationCount = 0;
@@ -52,14 +51,15 @@ public class TabuSearch {
                 stagnationCount = 0;
             } else {
                 stagnationCount++;
-                if(OPEN_LOG){
-                    System.out.println("陷入Local Optima 將隨機重啟");
-                    System.out.println("stagnationCount:" + stagnationCount);
-                }
             }
 
             if (stagnationCount >= maxStagnation) {
                 currentState = diversify(currentState);
+                if(OPEN_LOG){
+                    System.out.println("陷入Local Optima 將隨機重啟");
+                    System.out.println(stagnationCount + "次未找到最佳解");
+                }
+
                 stagnationCount = 0;
             }
             iteration++;
